@@ -5,12 +5,7 @@ Real-time Stock Visualization with Streamz and Bokeh: Visualize minute-level sto
 
 This repository contains a Python script for real-time stock data visualization using Streamz and Bokeh. The script fetches minute-level stock data from Yahoo Finance using the yfinance library and streams the data to a Bokeh plot in a Jupyter notebook.
 
-## Prerequisites
-
-Before running the script, make sure you have the required libraries installed:
-
-```bash
-pip install streamz bokeh yfinance
+![Screenshot](screenshot.png)
 
 ## Dependencies
 yfinance: Fetches minute-level stock data from Yahoo Finance.
@@ -26,3 +21,11 @@ Feel free to open issues for any bugs, improvements, or feature requests. Contri
 
 ## License
 This project is licensed under the MIT License.
+
+## Prerequisites
+
+Before running the script, make sure you have the required libraries installed:
+
+```bash
+pip install streamz bokeh yfinance
+
