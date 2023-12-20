@@ -12,3 +12,17 @@ Before running the script, make sure you have the required libraries installed:
 ```bash
 pip install streamz bokeh yfinance
 
+## Dependencies
+yfinance: Fetches minute-level stock data from Yahoo Finance.
+streamz: Provides the stream for real-time data updates.
+bokeh: Used for creating interactive and real-time plots.
+
+## Configuration
+Set the start and end dates in the script (start_date and end_date variables). For 1min data from Yahoo Finance, make sure that the start and end dates are the past 7 days. 
+Define the ticker symbol for the desired stock (ticker_symbol variable).
+
+## Issues and Contributions
+Feel free to open issues for any bugs, improvements, or feature requests. Contributions are welcome through pull requests.
+
+## License
+This project is licensed under the MIT License.
